@@ -78,3 +78,4 @@ Config environment File > Settings... > Build, Execution, Deployment
 * Choose `Cygwin home`: `C:\cygwin64`
 * Choose `CMake executable`: `Bundled CMake 3.8.2`
 
+![](./images/hello_world.png)
