@@ -71,3 +71,10 @@ Pick each of the following packages by clicking its corresponding “Skip” mar
 
 Download file `CLion-2017.2.exe` from website [https://www.jetbrains.com/clion/download/#section=windows](https://www.jetbrains.com/clion/download/#section=windows)
 
+![](https://www.ics.uci.edu/~pattis/common/handouts/cygwinclion/images/clion/CLion%20Setup.jpg)
+
+Config environment File > Settings... > Build, Execution, Deployment
+
+* Choose `Cygwin home`: `C:\cygwin64`
+* Choose `CMake executable`: `Bundled CMake 3.8.2`
+
