@@ -67,4 +67,7 @@ Pick each of the following packages by clicking its corresponding “Skip” mar
 * `make`: The GNU version of the ‘make’ utility
 * `libmpfr4` : A library for multiple-precision floating-point arithmetic with exact rounding
 
+## Download and install CLion
+
+Download file `CLion-2017.2.exe` from website [https://www.jetbrains.com/clion/download/#section=windows](https://www.jetbrains.com/clion/download/#section=windows)
 
