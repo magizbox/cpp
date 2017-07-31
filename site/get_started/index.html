@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Vu Anh">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Get Started - C++</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+        <link href="../components/magiz-c-book/src/book.css" rel="stylesheet">
+        <link href="../components/magiz-c-course/src/course.css" rel="stylesheet">
+        <link href="../components/magiz-c-video/src/video.css" rel="stylesheet">
+        <link href="../components/magiz-c-benchmark/src/benchmark.css" rel="stylesheet">
+        <link href="../components/magiz-c-paper/src/paper.css" rel="stylesheet">
+        <link href="../components/magiz-doc/style.css" rel="stylesheet">
+        <link href="../components/magiz-doc/highlight.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-68978617-1', 'magizbox.com');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="..">C++</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="./">Get Started</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basics <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../basic_syntax/">Basic Syntax</a>
+</li>
+                            
+<li >
+    <a href="../datastructure/">Data Structure</a>
+</li>
+                            
+<li >
+    <a href="../oop/">Object Oriented Programming</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Go Deeper <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../database/">Database</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../testing/">Testing</a>
+</li>
+                            
+<li >
+    <a href="../ide/">IDE & Debugging</a>
+</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="..">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../basic_syntax/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#get-started">Get Started</a></li>
+            <li><a href="#what-do-i-need-to-start-with-clion">What do I need to start with CLion?</a></li>
+            <li><a href="#downloading-and-installing-cmake">Downloading and Installing CMake</a></li>
+            <li><a href="#downloading-and-getting-cygwin">Downloading and Getting Cygwin</a></li>
+            <li><a href="#download-and-install-clion">Download and install CLion</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="get-started">Get Started</h1>
+<h2 id="what-do-i-need-to-start-with-clion">What do I need to start with CLion?</h2>
+<p>In general to develop in C/C++ with CLion you need:</p>
+<ul>
+<li>CMake, 2.8.11+ (Check JetBrains guide for updates)</li>
+<li>GCC/G++/Clang (Linux) or</li>
+<li>MinGW 3.<em> or MinGW — w64 3.-4. or Cygwin 1.7.32 (minimum required) up to 2.0.</em> (Windows)</li>
+</ul>
+<h2 id="downloading-and-installing-cmake">Downloading and Installing CMake</h2>
+<p>Downloading and installing CMake is pretty simple, just go to the <a href="https://cmake.org/">website</a>, download and install by following the recommended guide there or the on Desktop Wizard.</p>
+<ul>
+<li>Download and install file <code>cmake-3.9.0-win64-x65.msi</code> </li>
+</ul>
+<pre><code>&gt; cmake
+Usage
+
+  cmake [options] &lt;path-to-source&gt;
+  cmake [options] &lt;path-to-existing-build&gt;
+
+Specify a source directory to (re-)generate a build system for it in the
+current working directory.  Specify an existing build directory to
+re-generate its build system.
+
+Run 'cmake --help' for more information.
+</code></pre>
+
+<h2 id="downloading-and-getting-cygwin">Downloading and Getting Cygwin</h2>
+<p>Cygwin is a large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Windows</p>
+<ol>
+<li>
+<p>Download file <code>setup-x86_64.exe</code> from the website <a href="https://cygwin.com/install.html">https://cygwin.com/install.html</a></p>
+</li>
+<li>
+<p>Install <code>setup-x86_64.exe</code> file</p>
+</li>
+</ol>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/800/0*HhYxOwZOOtUCZxaE." /></p>
+<p>This is the root directory where Cygwin will be located, usually the recommended C:\ works</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/800/0*XnIJI0YQfkR-TDJU." /></p>
+<p>Choose where to install LOCAL DOWNLOAD PACKAGES: This is not the same as root directory, but rather where packages (ie. extra C libraries and tools) you download using Cygwin will be located</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/800/0*2kLnTTLncHKOkBGu." /></p>
+<p>Follow the recommended instructions until you get to packages screen:</p>
+<p><img alt="" src="https://cdn-images-1.medium.com/max/800/0*7_YtZ1k4h39zpf-U." /></p>
+<p>Once you get to the packages screen, this is where you customize what libraries or tools you will install. From here on I followed the above guide but here’s the gist:</p>
+<p>From this window, choose the Cygwin applications to install. For our purposes, you will select certain GNU C/C++ packages.</p>
+<p>Click the + sign next to the Devel category to expand it.</p>
+<p>You will see a long list of possible packages that can be downloaded. Scroll the list to see more packages.</p>
+<p>Pick each of the following packages by clicking its corresponding “Skip” marker.</p>
+<ul>
+<li><code>gcc-core</code>: C compiler subpackage</li>
+<li><code>gcc-g++</code>: C++ subpackage</li>
+<li><code>libgcc1</code>: C runtime library</li>
+<li><code>gdb</code>: The GNU Debugger</li>
+<li><code>make</code>: The GNU version of the ‘make’ utility</li>
+<li><code>libmpfr4</code> : A library for multiple-precision floating-point arithmetic with exact rounding</li>
+</ul>
+<h2 id="download-and-install-clion">Download and install CLion</h2>
+<p>Download file <code>CLion-2017.2.exe</code> from website <a href="https://www.jetbrains.com/clion/download/#section=windows">https://www.jetbrains.com/clion/download/#section=windows</a></p>
+<p><img alt="" src="https://www.ics.uci.edu/~pattis/common/handouts/cygwinclion/images/clion/CLion%20Setup.jpg" /></p>
+<p>Config environment File &gt; Settings... &gt; Build, Execution, Deployment</p>
+<ul>
+<li>Choose <code>Cygwin home</code>: <code>C:\cygwin64</code></li>
+<li>Choose <code>CMake executable</code>: <code>Bundled CMake 3.8.2</code></li>
+</ul>
+<p>Run your first C++ program with CLion</p>
+<p><img alt="" src="../images/hello_world.png" /></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../components/underscore/underscore.js"></script>
+        <script src="../components/magiz-c-book/src/gspreadsheet.js"></script>
+        <script src="../components/magiz-c-paper/src/paper.js"></script>
+        <script src="../components/magiz-c-course/src/course.js"></script>
+        <script src="../components/magiz-c-benchmark/src/benchmark.js"></script>
+        <script src="../components/magiz-c-benchmark/src/bootstrap-popup.js"></script>
+        <script src="../components/magiz-c-book/src/book.js"></script>
+        <script src="../components/magiz-c-video/src/video.js"></script>
+        <script src="../components/jquery/dist/jquery.js"></script>
+        <script src="../components/magiz-doc/doc.js"></script>
+        <script src="../components/magiz-doc/footer.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

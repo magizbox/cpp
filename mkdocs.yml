@@ -1,12 +1,19 @@
-site_name: C++Tutorial
+site_name: C++
 site_author: "Vu Anh"
 google_analytics: ["UA-68978617-1", "magizbox.com"]
 
 pages:
 - "Home": 'index.md'
-- "Docs":
-  - "Introduction": "introduction.md"
-  - "Create Unit Test in Visual Studio 2013": "unittest_vs.md"
+- "Get Started": "get_started.md"
+- "Basics":
+  - "Basic Syntax": "basic_syntax.md"
+  - "Data Structure": "datastructure.md"
+  - "Object Oriented Programming": "oop.md"
+- "Go Deeper":
+  - "Database": "database.md"
+- "Development":
+  - "Testing": "testing.md"
+  - "IDE & Debugging": "ide.md"
 
 markdown_extensions:
     - footnotes
@@ -17,6 +24,8 @@ extra_css:
   - components/magiz-c-video/src/video.css
   - components/magiz-c-benchmark/src/benchmark.css
   - components/magiz-c-paper/src/paper.css
+  - components/magiz-doc/style.css
+  - components/magiz-doc/highlight.css
 
 extra_javascript:
   - components/underscore/underscore.js
@@ -27,4 +36,7 @@ extra_javascript:
   - components/magiz-c-benchmark/src/bootstrap-popup.js
   - components/magiz-c-book/src/book.js
   - components/magiz-c-video/src/video.js
+  - components/jquery/dist/jquery.js
+  - components/magiz-doc/doc.js
+  - components/magiz-doc/footer.js
 

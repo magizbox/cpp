@@ -3,8 +3,16 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2016-11-01</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/get_started/</loc>
+     <lastmod>2017-07-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,14 +20,46 @@
     
         
     <url>
-     <loc>None/introduction/</loc>
-     <lastmod>2016-11-01</lastmod>
+     <loc>/basic_syntax/</loc>
+     <lastmod>2017-07-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/unittest_vs/</loc>
-     <lastmod>2016-11-01</lastmod>
+     <loc>/datastructure/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/oop/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/database/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/testing/</loc>
+     <lastmod>2017-07-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ide/</loc>
+     <lastmod>2017-07-31</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
